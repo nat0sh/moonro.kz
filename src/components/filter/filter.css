@@ -1,0 +1,48 @@
+.sidebar {
+    background-color: #fff;
+    padding: 0.5rem 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .filter-block:not(:last-child) {
+    margin-bottom: 2rem;
+  }
+  
+  .filter-block .form-check {
+    margin-bottom: 0.5rem;
+    padding-left: 1rem;
+  }
+  
+  .form-check-input[type="checkbox"] {
+    border-radius: 0;
+    border-color: gray;
+  }
+  
+  .form-check-input:focus {
+    border-color: gray;
+    box-shadow: none;
+  }
+  
+  .form-check-input:checked {
+    background-color: #dc3545;
+    border-color: #dc3545;
+  }
+  
+  .filter-block .badge {
+    color: gray;
+  }
+  
+  .sidebar .collapse-filters-btn {
+    border: 1px solid var(--bg-dark);
+    color: #fff;
+    background-color: #212529!important;
+  }
+  
+  .card-list {
+    background-color: #fff;
+    padding: 0.5rem 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }

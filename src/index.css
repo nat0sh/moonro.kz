@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600&display=swap');
+
+
+/*--------------------------Global----------------------------*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+body {
+  background-color: #f5f5f5;
+}
+
+/*--------------------------Section----------------------------*/
+
+section {
+  padding: 20px 0;
+}
+
+.section-title {
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+.section-title span {
+  padding-right: 1rem;
+  margin-bottom: 20px;
+}
+
+.featured-items .row{
+  padding-left: 0;
+  padding-bottom: 40px;
+}
+
+/*--------------------------Breadcrumb----------------------------*/
+
+.breadcrumb {
+  margin-top: 60px;
+  background-color: white;
+  height: 50px;
+  align-items: center;
+}
+
+.breadcrumb .br-home {
+  margin-left: 20px;
+}
+
+.breadcrumb a:hover{
+  color: #dc3545;
+}
+
+.breadcrumb a {
+  text-decoration: none;
+  color: #212529bf;
+}
+
+/*--------------------------Cart-Window----------------------------*/
+
+.cart-window {
+  position: absolute;
+  top: 65px;
+  right: 15px;
+  width: 350px;
+  min-height: 100px;
+  background-color: #fbfbfe;
+  box-shadow: 0 3px 15px 0px rgba(0, 0, 0, .5);
+  z-index: 10;
+  border-radius: 10px;
+  padding: 10px;
+  padding-bottom: 0;
+}
+
+.order {
+  width: 100%;
+  float: left;
+  margin-bottom: 10px;
+}
+
+.order table {
+  width: 100%;
+}
+
+.order img {
+  width: 55px;
+  float: left;
+  border-radius: 10px;
+}
+
+.td-title {
+  padding-right: 20px;
+  padding-left: 15px;
+}
+
+.order a {
+  font-size: 16px;
+  text-decoration: none;
+  color: rgb(33,37,41);
+  font-weight: 100;
+  transition: all 400ms ease;
+}
+
+.order a:hover {
+  color: #dc3545;
+}
+
+.order .price {
+  font-size: 16px;
+  font-weight: 400;
+  padding-right: 20px;
+  padding-left: 15px;
+  float: right;
+}
+
+.order .price::after {
+  content: "₸";
+}
+
+.order .delete-button {
+  float: right;
+  text-align: right;
+  cursor: pointer;
+  font-size: 25px;
+  transition: tranform 500ms ease;
+  margin-bottom: 23px;
+  position: relative;
+  top: auto; 
+  transition: transform 400ms ease;
+}
+
+.order .delete-button:hover {
+  transform: scale(1.1);
+}
+
+.cart-window .cart-empty {
+  align-items: center;
+  text-align: center;
+  margin: 25px;
+  font-family:'Noto Sans', sans-serif;
+  font-weight: 400;
+}
+
+
+
+/*--------------------------Category----------------------------*/
+
+.choose-model {
+  padding: 10px 0;
+  margin-bottom: 50px;
+}
+
+.row>* {
+  padding: 0.2rem .2rem;
+}
+
+.choose-model .btn{
+  background-color: #fff;
+  margin: 0;
+  text-decoration: none;
+  color: var(--bg-dark);
+  width: 100%;
+}
+
+/*--------------------------Product page----------------------------*/
+
+.product-page .carousel .carousel-control-prev,
+.product-page .carousel .carousel-control-next {
+    margin-top: 50%;
+    height: 100%;
+}
+
+.product-content h2 {
+    font-weight: 600;
+}
+
+.product-content .product-price {
+    font-size: 30px;
+}
+
+.product-content .card {
+    padding-left: 20px;
+    font-size: 14px;
+}
+
+.product-content .card ul li::before {
+    content: "●";
+    margin-right: 10px;
+}
+
+.nav-tabs .nav-link {
+    color: gray;
+}
+
+.tab-content {
+    padding-top: 20px;
+}
+
+/*--------------------------Delivery----------------------------*/
+
+.delivery-info h4 {
+  font-weight: 700;
+}
+
+/*--------------------------Contacts----------------------------*/
+
+.contact-us iframe {
+  height: 150px;
+  width: 150px;
+  border: 0;
+}
+
+
+/*--------------------------Cart page----------------------------*/
+
+.cart-content table img {
+  max-width: 50px;
+}
+
+.cart-content table th {
+  text-align: center;
+}
+
+.cart-content table td {
+  padding: 1rem;
+}
+
+.cart-content table td a {
+  color: var(--bs-secondary);
+  text-decoration: none;
+}
+
+.cart-content table td a:hover {
+  text-decoration: underline;
+}
+
+.cart-content-title {
+  text-decoration: none;
+  display: block;
+}
+
+.cart-qty {
+  width: 50px;
+}
+
+.cart-summary h5 {
+  font-weight: 600;
+  margin-top: 0.7rem;
+  font-size: 1.5rem;
+}
+
+.cart-summary h6 {
+  color: var(--bs-secondary);
+}
+
+.cart-summary h3 {
+  color: #000;
+}
+
+.cart-summary .btn {
+  padding: 1rem;
+}
+
+/*--------------------------Checkout page----------------------------*/
+
+.checkout input {
+  color: gray;
+}
+
+
+
+
+
+
+

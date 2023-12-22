@@ -1,0 +1,52 @@
+
+header {
+    position: relative;
+  }
+  
+  .navbar{
+      font-size: 18px;
+    font-family: 'Noto Sans', sans-serif;
+  }
+  
+  .form-control {
+    font-weight: 300;
+  }
+  
+  .navbar-brand {
+      font-size: 22px;
+    font-weight: 500;
+  }
+  
+  .dropdown-item {
+      color: lightgrey;
+    font-weight: 300;
+    transition: all 400ms ease;
+  }
+  
+  .dropdown-item:active {
+      color: #fff;
+      text-decoration: none;
+      background-color: gray;
+  }
+  
+  header .cart-button, .profile-button {
+      text-decoration: none;
+    font-size: 25px;
+    cursor: pointer;
+    color: white;
+    transition: transform 500ms ease;
+  }
+  
+  header .cart-button:hover,
+  .cart-button.active,
+  header .profile-button:hover,
+  .profile-button.active {
+      color: #dc3545;
+    transform: scale(1.1);
+  }
+  
+  .custom-badge {
+    font-size: 10px; 
+    font-weight: 600;
+  }
+  
